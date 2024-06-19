@@ -1,14 +1,2 @@
-class NotExistsIpError(Exception):
-    pass
-
-
-class NullResultError(Exception):
-    pass
-
-
-class MultiSelectedError(Exception):
-    pass
-
-
-class NotExistsValueError(Exception):
+class InvalidThreadCountError(Exception):
     pass
